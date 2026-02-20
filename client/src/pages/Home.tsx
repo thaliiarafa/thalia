@@ -27,7 +27,7 @@ export default function Home() {
             {format(today, "EEEE, MMM do")}
           </h2>
           <h1 className="text-[28px] leading-tight font-serif text-foreground font-semibold">
-            Good morning, beautiful <span className="inline-block hover:animate-spin origin-center">🌸</span>
+            Good morning, Emma <span className="inline-block hover:animate-spin origin-center">🌸</span>
           </h1>
         </div>
         <div className="relative shrink-0 ml-4">

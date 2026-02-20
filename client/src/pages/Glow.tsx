@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import { Sparkles, Droplets, Moon, Footprints, Flame, Timer, CheckCircle2 } from "lucide-react";
+import { Sparkles, Droplets, Moon, Footprints, Flame, Timer, CheckCircle2, RefreshCw, Smartphone } from "lucide-react";
 import { useState } from "react";
 
 export default function Glow() {
+  const [isSyncing, setIsSyncing] = useState(false);
   const [habits, setHabits] = useState([
     { id: 'water', name: "Hydration", icon: Droplets, value: 3, target: 8, unit: "glasses", color: "text-[#60A5FA]", bg: "bg-[#E0F2FE]", track: "bg-[#BFDBFE]" },
     { id: 'steps', name: "Movement", icon: Footprints, value: 6500, target: 10000, unit: "steps", color: "text-[#FB923C]", bg: "bg-[#FFEDD5]", track: "bg-[#FED7AA]" },
@@ -15,6 +16,13 @@ export default function Glow() {
       if (h.id === 'skincare') return { ...h, value: h.value === 1 ? 2 : 1 };
       return h;
     }));
+  };
+
+  const handleSync = () => {
+    setIsSyncing(true);
+    setTimeout(() => {
+      setIsSyncing(false);
+    }, 1500);
   };
 
   return (
@@ -97,6 +105,29 @@ export default function Glow() {
         </div>
       </section>
       
+      {/* Health App Sync */}
+      <section>
+        <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-[24px] p-4 shadow-sm border border-white/80 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-white text-primary flex items-center justify-center shadow-sm">
+              <Smartphone size={18} />
+            </div>
+            <div>
+              <h4 className="font-bold text-[14px]">Health & Fitness App</h4>
+              <p className="text-[11px] text-muted-foreground font-medium">Synced {isSyncing ? 'just now' : '5 mins ago'}</p>
+            </div>
+          </div>
+          <button 
+            onClick={handleSync}
+            disabled={isSyncing}
+            className="flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-full text-[11px] font-bold text-foreground shadow-sm hover:bg-muted/50 transition-colors"
+          >
+            <RefreshCw size={12} className={isSyncing ? "animate-spin" : ""} />
+            {isSyncing ? 'Syncing...' : 'Sync Data'}
+          </button>
+        </div>
+      </section>
+
       {/* Workout Widget */}
       <section>
         <h3 className="font-serif text-[22px] font-medium tracking-tight mb-4">Today's Movement</h3>
