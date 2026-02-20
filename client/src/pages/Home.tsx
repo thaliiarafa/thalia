@@ -13,6 +13,9 @@ export default function Home() {
     "Make yourself a priority today."
   ];
 
+  // Pick a quote based on the current day of the month so it changes daily
+  const quoteOfTheDay = quotes[today.getDate() % quotes.length];
+
   return (
     <motion.div 
       initial={{ opacity: 0, y: 10 }}
@@ -42,7 +45,7 @@ export default function Home() {
       <div className="bg-primary/10 rounded-3xl p-6 border border-primary/20 relative overflow-hidden shadow-sm">
         <Heart className="absolute -right-4 -bottom-4 w-24 h-24 text-primary/10 rotate-12" />
         <p className="text-primary-foreground font-serif italic text-[17px] leading-relaxed relative z-10">
-          "{quotes[0]}"
+          "{quoteOfTheDay}"
         </p>
       </div>
 
