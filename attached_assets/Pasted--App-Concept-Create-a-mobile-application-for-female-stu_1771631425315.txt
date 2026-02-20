@@ -1,0 +1,130 @@
+🎯 App Concept
+Create a mobile application for female students that combines:
+an aesthetic academic planner
+a daily to-do system
+a habit + wellness tracker
+and science-based glow-up guidance
+The design should be:
+minimal
+soft feminine (beige / blush pink / cream tones)
+clean and calming
+modern and “Pinterest aesthetic”
+🧩 CORE FEATURES
+1️⃣ CALENDAR & ACADEMIC PLANNER
+Create a monthly + weekly calendar view where the user can:
+Add lectures, labs, exams
+Add deadlines and assignments
+Color-code events (e.g. classes, gym, personal, exams)
+Each event should allow:
+title
+time
+location
+notes
+reminder notifications
+2️⃣ DAILY TO-DO LIST
+Include a Daily To-Do section where the user can:
+Add tasks for each day
+Mark tasks as completed
+Prioritize tasks (high / medium / low)
+Drag and reorder tasks
+3️⃣ GENERAL TO-DO LIST
+Create a separate section called:
+👉 “Master List” or “General Tasks”
+Where the user can:
+store long-term tasks
+categorize them (study, personal, errands, health)
+move tasks from general → daily list
+4️⃣ HABIT & WELLNESS TRACKER (Glow Tracker)
+Include a habit tracker dashboard where users can track daily:
+💧 Water intake
+👟 Steps
+🧴 Skincare routine
+🏋️‍♀️ Gym / workouts
+😴 Sleep hours
+💊 Vitamins
+Each habit should:
+be checkable daily
+show streaks
+show weekly progress
+contribute to a “Glow Score”
+5️⃣ WORKOUT TRACKER
+A dedicated section where users can:
+log workouts
+select workout type (weights, cardio, yoga, pilates)
+track duration
+write notes (e.g. leg day, upper body)
+6️⃣ MEAL & NUTRITION TRACKER
+Allow users to:
+log meals (breakfast, lunch, dinner, snacks)
+optionally add notes (healthy, protein, sugar, etc.)
+view patterns (simple visual charts)
+7️⃣ SKINCARE TRACKER
+A section where users can:
+log skincare routine (AM / PM)
+track products used
+note skin condition (clear, acne, dry, glowing)
+8️⃣ FOCUS TIME / STUDY MODE
+Include a focus timer (Pomodoro style):
+25 / 45 / 60 minute focus sessions
+break reminders
+session tracking
+daily focus time stats
+🔔 NOTIFICATIONS SYSTEM
+The app should send:
+reminders for classes & labs
+reminders for tasks
+reminders for habits (water, gym, skincare)
+reminders for sleep time
+🌞 DAILY EXPERIENCE
+Every morning when the user opens the app, show:
+💌 “Good Morning” Message
+Example:
+“Good morning beautiful 🌸
+Today is a new opportunity to grow, glow and achieve your goals.”
+✨ Motivational Quote of the Day
+(rotate daily quotes about:
+discipline
+confidence
+growth
+self love
+success)
+🎨 DESIGN & UI STYLE
+Design must be:
+aesthetic & minimal
+soft pastel colors
+rounded buttons
+elegant typography
+clean dashboard layout
+Include:
+progress rings
+streak counters
+soft icons (water, gym, skincare, sleep etc.)
+🧠 OPTIONAL FUTURE FEATURE (structure it for later)
+Prepare the structure for:
+👉 science-based insights (biology explanations like hormones, sleep, muscle growth)
+👤 USER PROFILE
+Allow users to input:
+name
+goals (fitness, study, glow up)
+class schedule
+📊 DASHBOARD HOME SCREEN
+The home screen should show:
+today’s schedule
+today’s to-do list
+habit progress
+glow score
+motivational message
+📱 TARGET USERS
+female university students
+interested in wellness, productivity, glow-up lifestyle
+want an aesthetic and structured life
+🎯 GOAL OF THE APP
+Help users:
+stay organized academically
+build healthy habits
+improve their lifestyle
+feel motivated and confident daily
+💖 TONE OF THE APP
+The app should feel like:
+your supportive, aesthetic, organized best friend
+who helps you glow, study, and become your best self.
