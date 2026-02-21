@@ -56,9 +56,11 @@ export default function Home() {
       <section>
         <div className="flex justify-between items-end mb-4">
           <h3 className="font-serif text-[22px] font-medium tracking-tight">Daily Glow</h3>
-          <span className="text-xs text-primary font-bold uppercase tracking-wider flex items-center gap-0.5">
-            View Details <ChevronRight size={14} />
-          </span>
+          <Link href="/glow">
+            <span className="text-xs text-primary font-bold uppercase tracking-wider flex items-center gap-0.5 cursor-pointer hover:text-primary/80 transition-colors">
+              View Details <ChevronRight size={14} />
+            </span>
+          </Link>
         </div>
         
         <div className="grid grid-cols-2 gap-4">
