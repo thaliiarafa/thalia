@@ -11,6 +11,7 @@ import Planner from "@/pages/Planner";
 import Tasks from "@/pages/Tasks";
 import Glow from "@/pages/Glow";
 import Profile from "@/pages/Profile";
+import Inspiration from "@/pages/Inspiration";
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function Router() {
           <Route path="/planner" component={Planner}/>
           <Route path="/tasks" component={Tasks}/>
           <Route path="/glow" component={Glow}/>
+          <Route path="/inspo" component={Inspiration}/>
           <Route path="/profile" component={Profile}/>
           <Route component={NotFound} />
         </Switch>

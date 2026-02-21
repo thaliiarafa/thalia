@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { format } from "date-fns";
+import { Link } from "wouter";
 import { Heart, Droplets, Moon, Footprints, ChevronRight, CheckCircle2 } from "lucide-react";
 import avatarImg from "@/assets/images/avatar.png";
 
@@ -33,11 +34,13 @@ export default function Home() {
             Good morning, Emma <span className="inline-block hover:animate-spin origin-center">🌸</span>
           </h1>
         </div>
-        <div className="relative shrink-0 ml-4">
-          <div className="w-14 h-14 rounded-full overflow-hidden border-[3px] border-primary/40 p-0.5">
-            <img src={avatarImg} alt="User Avatar" className="w-full h-full object-cover rounded-full" />
-          </div>
-          <div className="absolute top-1 right-0 w-3.5 h-3.5 bg-red-400 rounded-full border-2 border-background"></div>
+        <div className="relative shrink-0 ml-4 hover:scale-105 transition-transform">
+          <Link href="/profile">
+            <div className="w-14 h-14 rounded-full overflow-hidden border-[3px] border-primary/40 p-0.5 cursor-pointer">
+              <img src={avatarImg} alt="User Avatar" className="w-full h-full object-cover rounded-full" />
+            </div>
+          </Link>
+          <div className="absolute top-1 right-0 w-3.5 h-3.5 bg-red-400 rounded-full border-2 border-background pointer-events-none"></div>
         </div>
       </header>
 

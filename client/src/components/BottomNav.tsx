@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { Home, CalendarHeart, ListTodo, Sparkles, User } from "lucide-react";
+import { Home, CalendarHeart, ListTodo, Sparkles, Image as ImageIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
@@ -8,7 +8,7 @@ const navItems = [
   { href: "/planner", icon: CalendarHeart, label: "Planner" },
   { href: "/tasks", icon: ListTodo, label: "Tasks" },
   { href: "/glow", icon: Sparkles, label: "Glow" },
-  { href: "/profile", icon: User, label: "Profile" },
+  { href: "/inspo", icon: ImageIcon, label: "Inspo" },
 ];
 
 export default function BottomNav() {
