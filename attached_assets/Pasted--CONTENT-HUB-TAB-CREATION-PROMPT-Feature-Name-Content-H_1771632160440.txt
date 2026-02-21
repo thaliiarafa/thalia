@@ -1,0 +1,167 @@
+🎥✨ CONTENT HUB TAB – CREATION PROMPT
+🌸 Feature Name
+Content Hub – Creator Studio
+🎯 Purpose of this Tab
+Create a dedicated in-app space where users (content creators) can:
+plan TikTok / Instagram content
+organize ideas
+script videos
+track filming & editing
+monitor performance
+manage brand collaborations
+The experience should feel like a creative studio + aesthetic planner combined.
+🧩 STRUCTURE OF THE TAB
+The Content Hub tab should contain the following sub-sections:
+Idea Vault
+Content Calendar
+Video Planner (Script Mode)
+Shoot Checklist
+Editing Tracker
+Performance Tracker
+Brand Collaborations
+Inspiration Board
+Notifications & Reminders
+Creator Motivation Panel
+🎨 UI STYLE
+Design must match the rest of the app:
+soft feminine aesthetic (blush pink, beige, cream)
+minimal, clean layout
+rounded cards
+subtle shadows
+elegant typography
+icons for each section (camera, calendar, heart, chart, etc.)
+📁 1️⃣ IDEA VAULT
+Create a system where users can store content ideas quickly.
+Each idea card should include:
+Title
+Category (Science / Beauty / Fitness / Student Life / Mindset / Brand)
+Hook (first line of video)
+Caption draft
+Audio / trend reference
+Status:
+Idea
+Filming
+Editing
+Posted
+Include:
+search function
+filter by category
+filter by status
+🗓️ 2️⃣ CONTENT CALENDAR
+Create a separate calendar view for content planning.
+Users should be able to:
+assign content to specific dates
+tag platform:
+TikTok
+Instagram
+Reels
+Sponsored content
+Each scheduled post includes:
+title
+platform
+content type
+status
+reminder notification
+🎬 3️⃣ VIDEO PLANNER (SCRIPT MODE)
+Each content item should have a script builder.
+Include structured fields:
+🎯 Hook (first 3 seconds)
+🎥 Main points / storyline
+🔁 Loop ending or CTA
+🎧 Audio used
+🎬 Shot list (scenes to film)
+Allow saving as template for reuse.
+🤳 4️⃣ SHOOT DAY CHECKLIST
+Create a checklist for filming preparation:
+Default checklist items:
+lighting ready
+tripod set
+camera angle
+outfit
+skincare / makeup
+script ready
+filming location
+props
+User can customize checklist.
+✂️ 5️⃣ EDITING TRACKER
+Provide a board with 3 columns:
+To Edit
+Editing
+Ready to Post
+Users can drag & drop videos between columns.
+Each card includes:
+video title
+platform
+deadline
+notes
+📊 6️⃣ PERFORMANCE TRACKER
+Allow users to log analytics for each post:
+Fields:
+Views
+Likes
+Comments
+Shares
+Saves
+Followers gained
+Also include:
+content category tag
+platform tag
+Provide:
+weekly performance overview
+simple charts showing best performing content type
+💌 7️⃣ BRAND COLLABORATION MANAGER
+Create a section to manage brand deals.
+Each brand entry includes:
+Brand name
+Contact email
+Platform
+Deal status:
+Idea
+Pitched
+Negotiating
+Confirmed
+Completed
+Deliverables
+Deadline
+Payment amount
+Notes
+💡 8️⃣ INSPIRATION BOARD
+Allow users to save inspiration content:
+save links (TikTok / Instagram)
+upload screenshots
+tag inspiration type (aesthetic, hook, edit, outfit, lighting)
+Display in grid format like Pinterest.
+🔔 9️⃣ NOTIFICATIONS & REMINDERS
+Include reminders such as:
+“Film content for tomorrow”
+“Time to post your TikTok”
+“Reply to comments”
+“Check your analytics”
+Allow user to customize notification times.
+🌟 🔟 CREATOR MOTIVATION PANEL
+At the top or bottom of the tab include:
+Daily Creator Message
+Example:
+“Your consistency will build your audience. Keep showing up.”
+Creator Quote of the Day
+Rotating quotes about:
+discipline
+confidence
+creativity
+growth
+🧠 DATA INTEGRATION
+Content Hub should integrate with:
+main calendar (for time blocking filming days)
+habit tracker (consistency tracking)
+notifications system
+🎯 TARGET USER EXPERIENCE
+The user should feel:
+organized
+creative
+motivated
+consistent
+like a professional content creator
+💖 FINAL FEELING
+The Content Hub should feel like:
+🎥 your personal aesthetic creator studio
+inside your life-organizing, glow-up app
