@@ -1,10 +1,16 @@
 import { motion } from "framer-motion";
-import { Video, Lightbulb, Calendar as CalendarIcon, Scissors, TrendingUp, Briefcase, Camera, CheckCircle2, Plus, Sparkles, LayoutGrid } from "lucide-react";
+import { Video, Lightbulb, Calendar as CalendarIcon, Scissors, TrendingUp, Briefcase, Camera, CheckCircle2, Plus, Sparkles, LayoutGrid, RefreshCw } from "lucide-react";
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function CreatorHub() {
   const [activeTab, setActiveTab] = useState("ideas");
+  const [isTikTokSyncing, setIsTikTokSyncing] = useState(false);
+
+  const handleTikTokSync = () => {
+    setIsTikTokSyncing(true);
+    setTimeout(() => setIsTikTokSyncing(false), 1500);
+  };
 
   const motivationQuotes = [
     "Your consistency will build your audience. Keep showing up.",
@@ -183,9 +189,16 @@ export default function CreatorHub() {
           </div>
 
           <div className="pt-4">
-             <div className="flex justify-between items-end mb-4">
+             <div className="flex justify-between items-center mb-4">
                <h3 className="font-serif text-[20px] font-medium tracking-tight">Performance</h3>
-               <span className="text-[11px] font-bold text-primary uppercase tracking-widest flex items-center gap-1">Weekly <TrendingUp size={12}/></span>
+               <button 
+                 onClick={handleTikTokSync}
+                 disabled={isTikTokSyncing}
+                 className="text-[10px] font-bold text-foreground bg-white border border-border shadow-sm px-3 py-1.5 rounded-full flex items-center gap-1.5 hover:bg-muted/50 transition-colors"
+               >
+                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+                 {isTikTokSyncing ? <RefreshCw size={12} className="animate-spin" /> : 'Sync'}
+               </button>
              </div>
              
              <div className="grid grid-cols-2 gap-3">
