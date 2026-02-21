@@ -12,6 +12,7 @@ import Tasks from "@/pages/Tasks";
 import Glow from "@/pages/Glow";
 import Profile from "@/pages/Profile";
 import CreatorHub from "@/pages/CreatorHub";
+import Inspiration from "@/pages/Inspiration";
 
 function Router() {
   return (
@@ -23,6 +24,7 @@ function Router() {
           <Route path="/tasks" component={Tasks}/>
           <Route path="/glow" component={Glow}/>
           <Route path="/studio" component={CreatorHub}/>
+          <Route path="/inspo" component={Inspiration}/>
           <Route path="/profile" component={Profile}/>
           <Route component={NotFound} />
         </Switch>
